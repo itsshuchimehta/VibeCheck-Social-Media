@@ -1,3 +1,10 @@
+<div align="center">
+  <a href="https://vibe-check-sm.vercel.app" target="_blank">
+    <img width="50%" src="https://github.com/itsshuchimehta/VibeCheck/assets/115120084/68cc1400-fd29-4141-b008-371563ff7c15">
+  </a>
+</div>
+
+
 ## 📋 <a name="table">Table of Contents</a>
 
 1. 🤖 [Introduction](#introduction)
