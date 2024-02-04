@@ -48,8 +48,8 @@ const PostForm = ({ post, action }: PostFormProps) => {
 
   // Handler
   const handleSubmit = async (value: z.infer<typeof PostValidation>) => {
-    console.log(value);
-    if (value.file.length != 0) {
+   
+     if (value.file.length != 0 || post?.imageUrl != "") {
 
 
       // ACTION = UPDATE
