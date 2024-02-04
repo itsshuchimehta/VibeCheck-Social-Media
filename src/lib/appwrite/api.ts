@@ -740,7 +740,7 @@ export async function followedUser(userIdToFollow: string, followerArray: string
 export async function SendRecoveryLink(email: string) {
   try {
     
-    const sendLink = await account.createRecovery(email, 'http://localhost:5173/reset-password');
+    const sendLink = await account.createRecovery(email, 'https://vibe-check-sm.vercel.app/reset-password');
     
     return sendLink;
   } catch (error:any) {
