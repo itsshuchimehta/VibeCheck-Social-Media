@@ -51,7 +51,6 @@ const PostForm = ({ post, action }: PostFormProps) => {
    
      if (value.file.length != 0 || post?.imageUrl != "") {
 
-
       // ACTION = UPDATE
       if (post && action === "Update") {
         const updatedPost = await updatePost({
